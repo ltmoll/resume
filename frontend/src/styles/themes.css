@@ -1,0 +1,36 @@
+/* Change the color palette here without touching the page layout. */
+:root {
+  color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --page: #f3f5f4;
+  --surface: #ffffff;
+  --ink: #172522;
+  --muted: #64736e;
+  --line: #dce4e0;
+  --accent: #12675e;
+  --accent-soft: #e4f1ed;
+}
+
+[data-theme="forest"] {
+  --page: #f1f3eb;
+  --surface: #ffffff;
+  --ink: #203125;
+  --muted: #657365;
+  --line: #dce3d6;
+  --accent: #426b3e;
+  --accent-soft: #e7efe2;
+}
+
+[data-theme="plum"] {
+  --page: #f6f1f6;
+  --surface: #ffffff;
+  --ink: #302333;
+  --muted: #796a7d;
+  --line: #e7dce9;
+  --accent: #835287;
+  --accent-soft: #f1e7f2;
+}

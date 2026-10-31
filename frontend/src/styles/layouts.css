@@ -1,0 +1,87 @@
+/* Layout rules are separate from theme colors so either can change alone. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+}
+
+button,
+select {
+  font: inherit;
+}
+
+.page-shell {
+  min-height: 100vh;
+  padding: 48px 24px;
+  background: var(--page);
+  color: var(--ink);
+}
+
+.page-content {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+}
+
+.appearance-controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.appearance-controls label {
+  display: grid;
+  gap: 5px;
+}
+
+.appearance-controls select {
+  min-width: 120px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.65fr) minmax(260px, 0.85fr);
+  gap: 64px;
+}
+
+.main-column,
+.side-column {
+  min-width: 0;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+[data-layout="stacked"] .content-grid {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+[data-layout="stacked"] .side-column {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  gap: 40px;
+}
+
+@media (max-width: 760px) {
+  .page-shell {
+    padding: 24px 16px;
+  }
+
+  .content-grid,
+  [data-layout="stacked"] .side-column {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .appearance-controls {
+    justify-content: flex-start;
+  }
+}
