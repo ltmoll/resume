@@ -75,9 +75,9 @@ PROFILE = {
                     "title": "Cloud Platform Engineer",
                     "dates": "March 2025 – October 2026",
                     "highlights": [
-                        "Served as the primary engineer for the architecture, administration, and optimization of the global Red Hat Ansible Automation Platform (AAP)",
-                        "Go-to subject matter expert for Ansible playbook development, troubleshooting and best practices",
-                        "Lead engineer for day-2 VM automation catalog of 60+ Windows/Linux playbooks including hardening (CIS/NIST), agent management (Tanium, Qualys, NewRelic, Carbon Black) and OS configurations)",
+                        "Architecture, administration, and optimization of the global Red Hat Ansible Automation Platform (AAP)",
+                        "Ansible playbook development, troubleshooting and best practices",
+                        "Day-2 VM automation catalog of 60+ Windows/Linux playbooks including hardening (CIS/NIST), agent management (Tanium, Qualys, NewRelic, Carbon Black) and OS configurations)",
                         "Managed and developed global cloud resource provisioning workflow integrating ServiceNow, Terraform, Azure/AWS and Ansible"
                     ],
                 },
