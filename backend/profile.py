@@ -11,9 +11,9 @@ PROFILE = {
     "email": "ltremblaymoll@gmail.com",
     "summary": (
         "Cloud platform and infrastructure engineer with 5+ years "
-        "managing enterprise-scale workloads across Azure and AWS."
+        "managing enterprise-scale workloads across Azure and AWS. "
         "SME of all things cloud automation, integrations "
-        "and OS configurations. "
+        "and Linux and Windows operating systems "
     ),
     "skills": [
         {
