@@ -6,21 +6,21 @@ resume without changing how the server works.
 
 PROFILE = {
     "name": "Lucas Tremblay-Moll",
-    "title": "Cloud Platform & Infrastructure Reliability Engineer",
-    "location": "Terrebonne, Quebec, Canada",
+    "title": "Cloud Platform & Infrastructure Engineer",
+    "location": "Montreal, Quebec, Canada",
     "email": "ltremblaymoll@gmail.com",
     "summary": (
-        "Cloud platform and infrastructure reliability engineer with 5+ years "
-        "of experience building and operating enterprise-scale systems across "
-        "AWS and Azure. Focused on infrastructure as code, automation, "
-        "reliability, and secure cloud operations."
+        "Cloud platform and infrastructure engineer with 5+ years "
+        "managing enterprise-scale workloads across Azure and AWS."
+        "SME of all things cloud automation, integrations "
+        "and OS configurations. "
     ),
     "skills": [
         {
             "category": "Cloud Providers",
             "items": [
-                "Amazon Web Services (AWS)",
                 "Microsoft Azure",
+                "Amazon Web Services (AWS)",
                 "Google Cloud Platform (GCP)"
             ],
         },
@@ -29,37 +29,39 @@ PROFILE = {
             "category": "Programming & Scripting",
             "items": [
                 "Python",
+                "Ruby",
                 "Bash",
                 "PowerShell",
-                "Java"
+                "Java",
+                "HTML/CSS/JavaScript"
             ],
         },
         {
-            "category": "Automation, IaC & Platforms",
+            "category": "CI/CD, IaC & DevOps Tools",
             "items": [
                 "Ansible",
                 "Chef",
                 "Terraform",
                 "Kubernetes",
-                "Jenkins"
+                "Jenkins",
+                "GitHub Actions"
             ],
         },
         {
-            "category": "Automation, IaC & Platforms",
+            "category": "AI & Intelligent Automation",
             "items": [
-                "Ansible",
-                "Chef",
-                "Terraform",
-                "Kubernetes",
-                "Jenkins"
+                "AI-assisted coding (e.g., GitHub Copilot, OpenCode)",
+                "LLM API integration",
+                "Prompt design and output validation",
+                "Agent orchestration and workflow automation"
             ],
         },
         {
-            "category": "Operating systems",
+            "category": "Operating Systems",
             "items": [
                 "Red Hat Enterprise Linux",
-                "Ubuntu Linux",
-                "Windows Server",
+                "Debian Linux (Ubuntu)",
+                "Windows Servers",
                 "Oracle Linux",
             ],
         }
@@ -73,18 +75,18 @@ PROFILE = {
                     "title": "Cloud Platform Engineer",
                     "dates": "March 2025 – October 2026",
                     "highlights": [
-                        "Led administration and reliability for the global Red Hat Ansible Automation Platform across AWS and Azure.",
-                        "Built Terraform and Ansible workflows to deploy and manage more than 7,000 Linux and Windows virtual machines.",
-                        "Automated operational tasks and patching with Python, Bash, and PowerShell in CI/CD pipelines.",
-                        "Improved security and compliance with automated vulnerability management, endpoint protection, and zero-trust authentication baselines.",
+                        "Served as the primary engineer for the architecture, administration, and optimization of the global Red Hat Ansible Automation Platform (AAP)",
+                        "Go-to subject matter expert for Ansible playbook development, troubleshooting and best practices",
+                        "Lead engineer for day-2 VM automation catalog of 60+ Windows/Linux playbooks including hardening (CIS/NIST), agent management (Tanium, Qualys, NewRelic, Carbon Black) and OS configurations)",
+                        "Managed and developed global cloud resource provisioning workflow integrating ServiceNow, Terraform, Azure/AWS and Ansible"
                     ],
                 },
                 {
                     "title": "Associate Infrastructure Reliability Engineer",
                     "dates": "March 2021 – March 2025",
                     "highlights": [
-                        "Managed Azure and AWS services, including virtual machines, networks, disks, resource groups, and recovery vaults.",
-                        "Automated Azure Site Recovery failover testing, backup validation, and disaster recovery workflows with PowerShell.",
+                        "Managed cloud compute, networking, storage, and recovery services across Azure and AWS, including virtual machines/EC2, VNets/VPCs, managed disks/EBS, and backup services.",
+                        "Automated disaster recovery testing, backup validation, and failover workflows with PowerShell across Azure and AWS.",
                         "Provided Tier 3 system administration and operating-system troubleshooting for enterprise infrastructure.",
                     ],
                 },

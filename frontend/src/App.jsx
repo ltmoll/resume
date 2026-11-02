@@ -8,7 +8,7 @@ import Skills from "./components/Skills.jsx";
 
 // Vite exposes browser-safe environment variables with the VITE_ prefix.
 const PROFILE_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:5000/api/profile";
+  import.meta.env.VITE_API_URL || "/api/profile";
 
 export default function App() {
   const [profile, setProfile] = useState(null);
