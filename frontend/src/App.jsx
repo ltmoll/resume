@@ -111,7 +111,9 @@ export default function App() {
 
         <footer className="page-footer">
           <span>© 2026 {profile.name}</span>
-          <a href={`mailto:${profile.email}`}>Get in touch</a>
+          <a className="contact-link" href={`mailto:${profile.email}`}>
+            Get in touch
+          </a>
         </footer>
       </div>
     </main>

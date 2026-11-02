@@ -46,6 +46,13 @@
   text-decoration: none;
 }
 
+.contact-link-linkedin {
+  color: var(--accent);
+  font-weight: 650;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
 .content-grid {
   margin-top: 28px;
 }
