@@ -9,6 +9,10 @@ export default function ProfileHeader({ profile }) {
         {profile.email}
         <span aria-hidden="true"> ↗</span>
       </a>
+      <a className="contact-link" href="https://www.linkedin.com/in/lucas-tremblay-moll-8b744917a/">
+        LinkedIn
+        <span aria-hidden="true"> ↗</span>
+      </a>
     </header>
   );
 }

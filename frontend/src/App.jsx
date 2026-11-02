@@ -110,7 +110,7 @@ export default function App() {
         </div>
 
         <footer className="page-footer">
-          <span>{profile.name}</span>
+          <span>© 2026 {profile.name}</span>
           <a href={`mailto:${profile.email}`}>Get in touch</a>
         </footer>
       </div>

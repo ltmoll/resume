@@ -29,11 +29,11 @@ PROFILE = {
             "category": "Programming & Scripting",
             "items": [
                 "Python",
-                "Ruby",
                 "Bash",
                 "PowerShell",
                 "Java",
-                "HTML/CSS/JavaScript"
+                "Ruby",
+                "HTML/CSS/JavaScript(React)"
             ],
         },
         {
