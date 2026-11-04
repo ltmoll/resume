@@ -101,7 +101,7 @@ PROFILE = {
             "roles": [
                 {
                     "title": "Technical Services Representative",
-                    "dates": "February 201 – February 2021",
+                    "dates": "February 2019 – February 2021",
                     "highlights": [
                         "Provided Tier 1 and Tier 2 support for point-of-sale systems, store hardware, and network connectivity across retail locations.",
                         "Coordinated troubleshooting with external vendors to meet service-level objectives.",
