@@ -7,7 +7,7 @@ resume without changing how the server works.
 PROFILE = {
     "name": "Lucas Tremblay-Moll",
     "title": "Cloud Platform & Infrastructure Engineer",
-    "location": "Montreal, Quebec, Canada",
+    "location": "Terrebonne, Quebec, Canada",
     "email": "ltremblaymoll@gmail.com",
     "summary": (
         "Cloud platform and infrastructure engineer with 5+ years "
@@ -101,7 +101,7 @@ PROFILE = {
             "roles": [
                 {
                     "title": "Technical Services Representative",
-                    "dates": "February 2015 – August 2021",
+                    "dates": "February 201 – February 2021",
                     "highlights": [
                         "Provided Tier 1 and Tier 2 support for point-of-sale systems, store hardware, and network connectivity across retail locations.",
                         "Coordinated troubleshooting with external vendors to meet service-level objectives.",
