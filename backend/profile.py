@@ -12,9 +12,10 @@ PROFILE = {
     "summary": (
         "Cloud platform and infrastructure engineer with 5+ years "
         "managing enterprise-scale workloads across Azure and AWS. "
-        "SME of all things cloud automation, integrations "
-        "and Linux and Windows operating systems "
+        "Subject matter expert of cloud automation, Ansible, "
+        "and operating system administration "
     ),
+    "workstatus": "Canada/US Citizen, eligible to work in Canada and the United States without sponsorship.",
     "skills": [
         {
             "category": "Cloud Providers",
@@ -42,6 +43,8 @@ PROFILE = {
                 "Ansible",
                 "Chef",
                 "Terraform",
+                "Podman",
+                "Docker",
                 "Kubernetes",
                 "Jenkins",
                 "GitHub Actions"

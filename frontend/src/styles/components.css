@@ -5,12 +5,12 @@
 
 .profile-header {
   padding: 56px;
-  border-top: 4px solid var(--accent);
+  border-top: 4px solid var(--secondary);
 }
 
 .eyebrow,
 .section-number {
-  color: var(--accent);
+  color: var(--secondary);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -33,7 +33,14 @@
 }
 
 .profile-summary {
-  max-width: 700px;
+  max-width: 600px;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.profile-workstatus {
+  max-width: 600px;
   color: var(--muted);
   font-size: 1rem;
   line-height: 1.8;

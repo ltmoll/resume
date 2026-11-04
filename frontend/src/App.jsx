@@ -13,7 +13,7 @@ const PROFILE_URL =
 export default function App() {
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState("");
-  const [theme, setTheme] = useState("ocean");
+  const [theme, setTheme] = useState("warm");
   const [layout, setLayout] = useState("editorial");
 
   useEffect(() => {
@@ -59,16 +59,17 @@ export default function App() {
   }
 
   return (
-    // These attributes let theme colors and page layout stay independently configurable.
     <main className="page-shell" data-theme={theme} data-layout={layout}>
       <div className="page-content">
         <div className="appearance-controls" aria-label="Appearance options">
           <label>
-            Theme
+            Color theme
             <select value={theme} onChange={(event) => setTheme(event.target.value)}>
+              <option value="warm">Warm</option>
               <option value="ocean">Ocean</option>
               <option value="forest">Forest</option>
               <option value="plum">Plum</option>
+              <option value="high-contrast">High contrast</option>
             </select>
           </label>
           <label>

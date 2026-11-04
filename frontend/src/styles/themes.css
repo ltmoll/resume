@@ -1,4 +1,3 @@
-/* Change the color palette here without touching the page layout. */
 :root {
   color-scheme: light;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
@@ -6,12 +5,24 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 
+  --page: #fcf3ef;
+  --surface: #ffffffe0;
+  --ink: #1b3644;
+  --muted: #526671;
+  --line: #f2ad78;
+  --accent: #a93400;
+  --secondary: #a93400;
+  --accent-soft: #ffd3b5;
+}
+
+[data-theme="ocean"] {
   --page: #f3f5f4;
   --surface: #ffffff;
   --ink: #172522;
-  --muted: #64736e;
-  --line: #dce4e0;
+  --muted: #52635e;
+  --line: #c8d8d2;
   --accent: #12675e;
+  --secondary: #12675e;
   --accent-soft: #e4f1ed;
 }
 
@@ -19,9 +30,10 @@
   --page: #f1f3eb;
   --surface: #ffffff;
   --ink: #203125;
-  --muted: #657365;
-  --line: #dce3d6;
+  --muted: #526352;
+  --line: #cbd6c3;
   --accent: #426b3e;
+  --secondary: #426b3e;
   --accent-soft: #e7efe2;
 }
 
@@ -29,8 +41,20 @@
   --page: #f6f1f6;
   --surface: #ffffff;
   --ink: #302333;
-  --muted: #796a7d;
-  --line: #e7dce9;
-  --accent: #835287;
+  --muted: #6b5b70;
+  --line: #d9c9dd;
+  --accent: #704276;
+  --secondary: #704276;
   --accent-soft: #f1e7f2;
+}
+
+[data-theme="high-contrast"] {
+  --page: #ffffff;
+  --surface: #ffffff;
+  --ink: #000000;
+  --muted: #333333;
+  --line: #000000;
+  --accent: #003b5c;
+  --secondary: #8b2500;
+  --accent-soft: #fff176;
 }
